@@ -1,0 +1,10 @@
+{% extends 'snacks/_parent.html' %}
+{% block title %} {{snack.name}} Detail Page {% endblock %}
+
+{% block Content %}
+<a href="/snacks"> Back To Lists Page</a>
+
+<h1>{{snack.name}}</h1>
+<h2>{{snack.description}}</h2>
+<h3>{{snack.purchaser}}</h3>
+{% endblock %}
