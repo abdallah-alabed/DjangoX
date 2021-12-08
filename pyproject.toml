@@ -11,6 +11,7 @@ django-allauth = "^0.46.0"
 django-crispy-forms = "^1.13.0"
 django-debug-toolbar = "^3.2.2"
 whitenoise = "^5.3.0"
+regex = "^2021.11.10"
 
 [tool.poetry.dev-dependencies]
 
